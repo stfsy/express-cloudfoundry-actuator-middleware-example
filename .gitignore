@@ -1,3 +1,6 @@
+# node-cloudfoundry-actuator-cli
+.actuator
+
 # Logs
 logs
 *.log
