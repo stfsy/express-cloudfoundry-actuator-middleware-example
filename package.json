@@ -4,6 +4,7 @@
     "description": "Example implementation for express-cloudfoundry-actuator-middleware and node-cloudfoundry-actuator-cli",
     "main": "lib/index.js",
     "scripts": {
+        "actuator": "cloudfoundry-actuator-cli",
         "setup": "npm run release-patch",
         "test-watch": "watch \"npm run test\" lib test",
         "test": "mocha test/spec/**/*.spec.js --check-leaks",
