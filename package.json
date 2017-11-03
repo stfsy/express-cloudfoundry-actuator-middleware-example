@@ -6,6 +6,7 @@
     "scripts": {
         "actuator": "cloudfoundry-actuator-cli",
         "setup": "npm run release-patch",
+        "start": "node lib/index",
         "test-watch": "watch \"npm run test\" lib test",
         "test": "mocha test/spec/**/*.spec.js --check-leaks",
         "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- test/spec/**/*.spec.js --check-leaks",
@@ -39,5 +40,13 @@
         "minami": "^1.1.1",
         "mocha": "^2.5.3",
         "watch": "^0.19.2"
+    },
+    "dependencies": {
+        "express": "^4.16.2",
+        "express-cloudfoundry-actuator-middleware": "0.1.0",
+        "node-cloudfoundry-actuator-cli": "^0.4.0"
+    },
+    "engines": {
+        "node": "6"
     }
 }
