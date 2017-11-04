@@ -43,8 +43,8 @@
     },
     "dependencies": {
         "express": "^4.16.2",
-        "express-cloudfoundry-actuator-middleware": "0.1.0",
-        "node-cloudfoundry-actuator-cli": "^0.4.0"
+        "express-cloudfoundry-actuator-middleware": "1.0.0",
+        "node-cloudfoundry-actuator-cli": "^1.0.0"
     },
     "engines": {
         "node": "6"
